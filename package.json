@@ -1,0 +1,54 @@
+{
+  "name": "cv-website",
+  "description": "CV website hosted on github.io to generate to pdf",
+  "version": "1.0.0",
+  "author": "Kuba Śliwiński <jakubslidev.github.io>",
+  "dependencies": {
+    "babel-plugin-styled-components": "^1.13.3",
+    "framer-motion": "^4.1.17",
+    "gatsby": "^2.32.13",
+    "gatsby-image": "^2.11.0",
+    "gatsby-plugin-anchor-links": "^1.2.1",
+    "gatsby-plugin-manifest": "^2.12.0",
+    "gatsby-plugin-node-reload": "^1.1.0",
+    "gatsby-plugin-offline": "^2.2.10",
+    "gatsby-plugin-react-helmet": "^3.10.0",
+    "gatsby-plugin-react-svg": "^3.1.0",
+    "gatsby-plugin-sass": "^3.0.0",
+    "gatsby-plugin-scroll-indicator": "^1.0.1",
+    "gatsby-plugin-sharp": "^2.14.4",
+    "gatsby-plugin-styled-components": "^3.10.0",
+    "gatsby-react-router-scroll": "^2.3.1",
+    "gatsby-source-filesystem": "^2.11.1",
+    "gatsby-transformer-remark": "^2.16.0",
+    "gatsby-transformer-sharp": "^2.12.1",
+    "gh-pages": "^3.2.3",
+    "phosphor-react": "^1.3.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-helmet": "^5.2.1",
+    "react-intersection-observer": "^8.33.1",
+    "react-to-print": "^2.14.4",
+    "styled-components": "^4.4.1"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "develop": "gatsby develop",
+    "deploy": "gatsby build && gh-pages -d public -b source",
+    "prettier-format": "prettier --write 'src/components/**/*.js'",
+    "prettier-check": "prettier --check 'src/components/**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "prettier": "^2.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jakubslidev/jakubslidev.github.io"
+  }
+}
